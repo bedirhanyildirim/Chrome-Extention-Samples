@@ -1,0 +1,29 @@
+{
+    "manifest_version": 2,
+    "name": "Page Font Style Extension",
+    "version": "1.0",
+    "description": "Changes font style on a specific page",
+    "icons": {
+        "128": "icons/icon128.png",
+        "48": "icons/icon48.png",
+        "16": "icons/icon16.png"
+    },
+    "page_action": {
+        "default_icon": "icons/icon16.png",
+        "default_popup": "popup.html",
+        "default_title": "Change Font Extension"
+    },
+    "background": {
+        "scripts": ["js/eventPage.js"],
+        "persistent": false
+    },
+    "content_scripts": [
+        {
+            "matches": ["https://github.com/bedirhanyildirim/*"],
+            "js": ["js/content.js"]
+        }
+    ],
+    "permissions": [
+        "tabs"
+    ]
+}
