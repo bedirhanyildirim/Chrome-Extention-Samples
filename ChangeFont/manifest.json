@@ -24,6 +24,7 @@
         }
     ],
     "permissions": [
-        "tabs"
+        "tabs",
+        "https://github.com/bedirhanyildirim/*"
     ]
 }
