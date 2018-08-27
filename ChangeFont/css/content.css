@@ -1,0 +1,12 @@
+.pinned-repos-list {
+}
+.pinned-repo-item-content {
+}
+.pinned-repo-item-content > span > a{
+    font-weight: none;
+}
+.js-calendar-graph-svg >g g rect{
+    fill: rgb(25, 97, 39);
+}
+
+

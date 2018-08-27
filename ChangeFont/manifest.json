@@ -20,7 +20,8 @@
     "content_scripts": [
         {
             "matches": ["https://github.com/bedirhanyildirim/*"],
-            "js": ["js/content.js"]
+            "js": ["js/content.js"],
+            "css": ["css/content.css"]
         }
     ],
     "permissions": [
